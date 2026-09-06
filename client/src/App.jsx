@@ -2,7 +2,11 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+
 import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+import About from './components/About'
+import Skills from './components/Skills'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,8 +16,11 @@ function App() {
 
       <div>
         <Navbar />
-        <h1>Hi! I am Jyoti</h1>
-        <p>Welcome to my portfolio website</p>
+        <Hero />
+        <About />
+        <Skills />
+        {/* <h1>Hi! I am Jyoti</h1>
+        <p>Welcome to my portfolio website</p> */}
       </div>
 
       {/* <div>
