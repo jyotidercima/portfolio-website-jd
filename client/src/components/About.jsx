@@ -1,10 +1,13 @@
+import './About.css'
+
+
 function AboutMe() {
     return (
-        <>  <section id="about" className="about">
+        <>  <section id="about" className="about sections">
 
             <div className="about-content">
 
-                <p className="section-subtitle">Get To Know Me</p>
+                <h1 className="section-subtitle">Get To Know Me</h1>
                 <h2>About me</h2>
                 <p>
                     I am Jyoti Dercima, a BCA Graduate and Full Stack Web Developer. I enjoy building web applications and learning more about technologies that help me turn ideas into practical projects.

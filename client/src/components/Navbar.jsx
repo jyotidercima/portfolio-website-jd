@@ -1,9 +1,11 @@
+import './Navbar.css'
+import logo from "../assets/logo.png"
 function Navbar() {
     return (
         <>
-            <div>
-                <img src="react.svg" alt="logo" />
-                <ul>
+            <div className="nav-container">
+                <img src={logo} height={100} alt="logo" />
+                <ul className='nav-list'>
                     <li>About</li>
                     <li>Skills</li>
                     <li>Projects</li>

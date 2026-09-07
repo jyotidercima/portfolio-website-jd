@@ -7,6 +7,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
 import Skills from './components/Skills'
+import Projects from './components/Projects'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +20,8 @@ function App() {
         <Hero />
         <About />
         <Skills />
+        <Projects />
+
         {/* <h1>Hi! I am Jyoti</h1>
         <p>Welcome to my portfolio website</p> */}
       </div>

@@ -1,0 +1,25 @@
+.nav-container {
+    /* background-color: rgba(70, 71, 72, 0.21); */
+    /* border-radius: 25%; */
+    /* box-shadow: 2px 2px 5px inset rgb(157, 156, 156); */
+    position: fixed;
+    left: 20px;
+    width: 7rem;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    padding: 0;
+}
