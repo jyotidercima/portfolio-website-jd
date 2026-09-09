@@ -12,6 +12,7 @@
 }
 .skill-content{
     height: 50vh;
+    background-color: yellow;
 }
 .skills{
    display:inline;

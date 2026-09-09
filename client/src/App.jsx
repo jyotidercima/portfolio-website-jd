@@ -4,27 +4,31 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import About from './components/About'
-import Skills from './components/Skills'
-import Projects from './components/Projects'
+import Hero from './sections/Hero'
+import About from './sections/About'
+import Skills from './sections/Skills'
+import Projects from './sections/Projects'
+import Contact from './sections/Contact'
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+      <Navbar />
 
-      <div>
-        <Navbar />
+      <main>
         <Hero />
         <About />
         <Skills />
         <Projects />
+        <Contact />
 
         {/* <h1>Hi! I am Jyoti</h1>
         <p>Welcome to my portfolio website</p> */}
-      </div>
+      </main>
+      <Footer />
 
       {/* <div>
         <a href="https://vite.dev" target="_blank">

@@ -1,6 +1,6 @@
-import './Project.css'
+// import './Project.css'
 import ProjectCard from './ProjectCard';
-// import project1 from '../assets'
+import project1 from '../assets/logo.png'
 // import project2 from '../assets'
 // import project3 from '../assets'
 
@@ -8,7 +8,7 @@ import ProjectCard from './ProjectCard';
 function Projects() {
     const Projects = [
         {
-            image: "",
+            image: project1,
             title: "abc",
             description: " abd ",
             technologies: [],
@@ -16,7 +16,7 @@ function Projects() {
             live: "#"
         },
         {
-            image: "",
+            image: project1,
 
             title: "sfgh",
             description: "cfdg",
@@ -25,7 +25,7 @@ function Projects() {
             live: "#"
         },
         {
-            image: "",
+            image: project1,
 
             title: "sfsf",
             description: "dfas",

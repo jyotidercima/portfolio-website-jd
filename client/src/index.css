@@ -1,3 +1,30 @@
+:root{
+  --bg-color: #000f172a;
+  --card-color: #1e293b;
+  --text-color: #f8fafc;
+  --muted-text: #94a3b8;
+  --accent-color: #38bdf8;
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  line-height: 1.6;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
 /* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

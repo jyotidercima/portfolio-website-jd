@@ -1,10 +1,10 @@
 import profileImage from "../assets/photo_self-1.png"
-import './Hero.css'
+// import './Hero.css'
 
 function Hero() {
     return (
         <>
-            <section className="sections">
+            <section className="hero-section sections">
                 <section className="content-hero">
                     <h1>Hi, I'am Jyoti</h1>
                     <h3>Full Stack Web Developer</h3>
