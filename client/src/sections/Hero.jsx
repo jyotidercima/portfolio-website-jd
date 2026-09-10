@@ -4,7 +4,7 @@ import profileImage from "../assets/photo_self-1.png"
 function Hero() {
     return (
         <>
-            <section className="hero-section sections">
+            <section className="hero-section sections" id="hero">
                 <section className="content-hero">
                     <h1>Hi, I'am Jyoti</h1>
                     <h3>Full Stack Web Developer</h3>

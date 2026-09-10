@@ -16,19 +16,23 @@ function App() {
 
   return (
     <>
-      <Navbar />
 
-      <main>
-        <Hero />
-        <About />
-        <Skills />
-        <Projects />
-        <Contact />
+      <div className="app">
+        <Navbar />
 
-        {/* <h1>Hi! I am Jyoti</h1>
-        <p>Welcome to my portfolio website</p> */}
-      </main>
-      <Footer />
+        <div className="content">
+          <main>
+            <Hero />
+            <About />
+            <Skills />
+            <Projects />
+            <Contact />
+
+          </main>
+          <Footer />
+
+        </div>
+      </div>
 
       {/* <div>
         <a href="https://vite.dev" target="_blank">
