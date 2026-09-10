@@ -1,6 +1,6 @@
 const ProjectCard = ({ title, description, technologies, image, github, live }) => {
     return (
-        <div className="project-card">
+        <div className="project-card" >
             {image && <img src={image} alt={title} className="project-image" />}
             {/* If image exist show image if not show anything */}
             <h3>{title}</h3>

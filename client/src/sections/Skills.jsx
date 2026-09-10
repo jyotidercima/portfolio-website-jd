@@ -3,9 +3,9 @@ import '../style/Skills.css'
 function Skills() {
 
     const frontendSkills = ["HTML", "CSS", "JavaScript", "React", "Tailwing CSS"];
-    const backendSkills = ["Node.js", "Express.js ", "REST APIs"];
-    const databaseSkills = ["mongoDB"];
-    const tools = ["GIT", "GitHub", "VS Code"];
+    const backendSkills = ["Node.js", "Express.js ", "Python", "REST APIs"];
+    const databaseSkills = ["mongoDB", "DBMS", "SQL", "PostgreSQL", "AWS"];
+    const tools = ["GIT", "GitHub", "VS Code", "Postman"];
 
     return (
         <>

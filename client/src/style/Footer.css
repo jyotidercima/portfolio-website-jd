@@ -1,5 +1,5 @@
-footer {
-    padding: 2rem 6rem;
+/* footer {
+    padding: 1rem 1rem;
     border-top: 1px solid #334155;
     display: flex;
     justify-content: space-between;
@@ -25,4 +25,4 @@ footer a {
 
 footer a:hover {
     color: var(--accent-color);
-}
+} */

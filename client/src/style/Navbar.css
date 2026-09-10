@@ -66,3 +66,40 @@
 .social-links a:hover {
     color: var(--accent-color)
 }
+
+/* footer */
+
+.sidebar footer {
+    padding: 0;
+    border-top: 1px solid #334155;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.sidebar footer p {
+    color: var(--muted-text);
+    font-size: 0.8rem;
+}
+
+.sidebar footer div {
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+}
+
+.sidebar footer a {
+    text-decoration: none;
+    color: var(--muted-text);
+    transition: color 0.3s ease;
+}
+
+.sidebar footer a:hover {
+    color: var(--accent-color);
+}
+
+.sidebar footer {
+    /* margin-top: auto; */
+    padding-top: 1.5rem;
+    border-top: 1px solid #334155;
+}

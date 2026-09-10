@@ -19,7 +19,7 @@ function Navbar() {
                     <a href="https://github.com/jyotidercima" target='_blank' rel='noopener noreferre'>GitHub</a>
                     <a href="https://linkedin.com/jyotidercima" target='_blank' rel='noopener noreferre'>LinkedIn</a>
                 </div>
-                {/* <Footer /> */}
+                <Footer />
             </div>
 
 

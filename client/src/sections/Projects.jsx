@@ -40,31 +40,31 @@ function Projects() {
         <>
 
             <section id="projects" className="projects sections">
-                <div className="projects-section">
-                    <div className="project-heading">
-                        <p className="section-subtitle">My Work</p>
-                        <h2>Projects</h2>
-                    </div>
+                {/* <div className="projects-section"> */}
+                <div className="project-heading">
+                    <p className="section-subtitle">My Work</p>
+                    <h2>Projects</h2>
+                </div>
 
 
-                    <div className="projects-container">
+                <div className="projects-container">
 
-                        {Projects.map((project) => (
+                    {Projects.map((project) => (
 
 
 
-                            <div className="project-card" key={project.title}>
+                        <div key={project.title}>
 
-                                <ProjectCard
-                                    title={project.title}
-                                    description={project.description}
-                                    technologies={project.technologies}
-                                    image={project.image}
-                                    github={project.github}
-                                    live={project.live}
-                                />
+                            <ProjectCard
+                                title={project.title}
+                                description={project.description}
+                                technologies={project.technologies}
+                                image={project.image}
+                                github={project.github}
+                                live={project.live}
+                            />
 
-                                {/* <h3>{project.title}</h3>
+                            {/* <h3>{project.title}</h3>
                                 <p>{project.description}</p>
 
                                 <div className="project-technologies">
@@ -78,12 +78,12 @@ function Projects() {
 
                                 </div> */}
 
-                            </div>
-                        ))}
-                    </div>
-
-
+                        </div>
+                    ))}
                 </div>
+
+
+                {/* </div> */}
             </section>
         </>
     )

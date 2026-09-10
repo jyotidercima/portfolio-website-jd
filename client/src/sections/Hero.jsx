@@ -1,5 +1,5 @@
-import profileImage from "../assets/photo_self-1.png"
-// import './Hero.css'
+import profileImage from "../assets/bg-jyoti1.png"
+import '../style/Hero.css'
 
 function Hero() {
     return (
@@ -23,7 +23,7 @@ function Hero() {
                 </section>
 
 
-                <img src={profileImage} alt="photo-jd" />
+                <img src={profileImage} alt="photo-jd" className="hero-image" />
             </section>
         </>
     )

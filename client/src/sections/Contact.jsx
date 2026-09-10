@@ -28,8 +28,8 @@ function Contact() {
                     <input type="text" name="name" id="user-name" value={formData.name} onChange={(e) => setFormData({ ...formData, name: e.target.value })} />
                     <label htmlFor="email">Your mail id:</label>
                     <input type="email" name="email" id="email" value={formData.email} onChange={(e) => setFormData({ ...formData, email: e.target.value })} />
-                    <label htmlFor="msg">Your message to me</label>
-                    <textarea name="msg" id="msg" placeholder='Your message' rows="5" value={formData.message} onChange={(e) => setFormData({...FormData, message: e.target.value})}>
+                    <label htmlFor="msg">Your message for me</label>
+                    <textarea name="msg" id="msg" placeholder='Your message' rows="5" value={formData.message} onChange={(e) => setFormData({ ...FormData, message: e.target.value })}>
 
                     </textarea>
 

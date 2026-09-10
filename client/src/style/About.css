@@ -19,7 +19,8 @@
     background-color: var(--card-color);
     border: 1px solid #334155;
     border-radius: 2rem;
-    max-width: 850px;
+    /* max-width: 850px; */
+    max-width: 100%;
     padding: 3rem;
 }
 
