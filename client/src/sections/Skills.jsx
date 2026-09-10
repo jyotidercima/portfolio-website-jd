@@ -1,4 +1,4 @@
-// import './Skills.css'
+import '../style/Skills.css'
 
 function Skills() {
 
@@ -15,12 +15,12 @@ function Skills() {
                     <p className="section-subtitle">What I Work With</p>
                     <h2>My Skills</h2>
 
-                    <div className="skills-containers">
 
-                        <div className="skills-container">
-                            <div className="skill-category">
-                                <h3>Frontend</h3>
+                    <div className="skills-container">
+                        <div className="skill-category">
+                            <h3>Frontend</h3>
 
+                            <div className="skill-tags">
                                 {frontendSkills.map((skill) => (
                                     <span key={skill}>
                                         {skill}
@@ -28,11 +28,15 @@ function Skills() {
                                 )
                                 )}
                             </div>
-                        </div>
 
-                        <div className="skills-container">
-                            <div className="skill-category">
-                                <h3>Backend</h3>
+
+                        </div>
+                    </div>
+
+                    <div className="skills-container">
+                        <div className="skill-category">
+                            <h3>Backend</h3>
+                            <div className="skill-tags">
 
                                 {backendSkills.map((skill) => (
                                     <span key={skill}>
@@ -42,10 +46,12 @@ function Skills() {
                                 )}
                             </div>
                         </div>
+                    </div>
 
-                        <div className="skills-container">
-                            <div className="skill-category">
-                                <h3>Database</h3>
+                    <div className="skills-container">
+                        <div className="skill-category">
+                            <h3>Database</h3>
+                            <div className="skill-tags">
 
                                 {databaseSkills.map((skill) => (
                                     <span key={skill}>
@@ -55,10 +61,12 @@ function Skills() {
                                 )}
                             </div>
                         </div>
+                    </div>
 
-                        <div className="skills-container">
-                            <div className="skill-category">
-                                <h3>Tools</h3>
+                    <div className="skills-container">
+                        <div className="skill-category">
+                            <h3>Tools</h3>
+                            <div className="skill-tags">
 
                                 {tools.map((skill) => (
                                     <span key={skill}>
@@ -69,6 +77,7 @@ function Skills() {
                             </div>
                         </div>
                     </div>
+
 
                 </section>
             </section>

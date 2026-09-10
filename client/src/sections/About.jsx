@@ -1,14 +1,16 @@
-// import './About.css'
+import '../style/About.css'
 
 
 function AboutMe() {
     return (
         <>  <section id="about" className="about sections">
 
+
+            <h2 className="section-subtitle">Get To Know Me</h2>
+            <p>About me</p>
+
             <div className="about-content">
 
-                <h1 className="section-subtitle">Get To Know Me</h1>
-                <h2>About me</h2>
                 <p>
                     I am Jyoti Dercima, a BCA Graduate and Full Stack Web Developer. I enjoy building web applications and learning more about technologies that help me turn ideas into practical projects.
                 </p>
@@ -18,6 +20,22 @@ function AboutMe() {
                 <p>
                     I'm continuously learning, building, and looking for opportunities where I can contribute and grow as a developer.
                 </p>
+
+                <div className="about-highlights">
+                    <div>
+                        <strong>BCA Graduate</strong>
+                        <span>Computer Science Background</span>
+                    </div>
+                    <div>
+                        <strong>Full Stack</strong>
+                        <span>Web Development</span>
+                    </div>
+                    <div>
+                        <strong>Currently</strong>
+                        <span>Learning by building</span>
+                    </div>
+                </div>
+
             </div>
         </section>
         </>

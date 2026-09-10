@@ -4,15 +4,21 @@ import profileImage from "../assets/photo_self-1.png"
 function Hero() {
     return (
         <>
-            <section className="hero-section sections" id="hero">
+            <section id="hero" className="hero-section sections" >
                 <section className="content-hero">
-                    <h1>Hi, I'am Jyoti</h1>
-                    <h3>Full Stack Web Developer</h3>
+                    <h1>Hi, I'am Jyoti Dercima</h1>
+                    <h2>Full Stack Web Developer</h2>
 
-                    <p>I build responsive web applications while continuously learning and improving my skills.</p>
-                    <div className="hero-button">
-                        <button>View My Projects</button>
-                        <button>Resume</button>
+                    <p className="hero-description">I build responsive web applications while continuously learning and improving my skills.</p>
+
+                    <p className="hero-code">
+                        &lt;code&gt; Building. Learning. Growing. &lt;/code&gt;
+                    </p>
+
+                    <div className="hero-buttons">
+                        <a href="#resume">Resume</a>
+                        <a href="#contact">Connect with me</a>
+
                     </div>
                 </section>
 

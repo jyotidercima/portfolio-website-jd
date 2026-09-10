@@ -1,21 +1,70 @@
-/* .contact-container{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    background-color: red;
-    margin: 0 auto;
-}
-.form-contact{
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 20rem;
-    
-    background-color: rgba(0, 0, 255, 0.425);
+#contact {
+    padding: 6rem;
+
 }
 
-.main-form{
-    display: flex;
-    flex-direction: column;
-} */
+#contact>p:first-child {
+    color: var(--accent-color);
+    font-family: monospace;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+#contact h2 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+
+}
+
+#contact>p:nth-child(3) {
+    color: var(--muted-text);
+    max-width: 650px;
+    margin-bottom: 2rem;
+}
+
+#contact form {
+    max-width: 650px;
+    background-color: var(--card-color);
+    border: 1px solid #334155;
+    border-radius: 8px;
+    padding: 2rem;
+}
+
+#contact form>div {
+    margin-bottom: 1.5rem;
+}
+
+#contact label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: var(--bg-color);
+    border: 1px solid #475569;
+    border-radius: 6px;
+    color: var(--text-color);
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+#contact button {
+    padding: 0.75rem 1.5rem;
+    background-color: transparent;
+    border: 1px solid var(--accent-color);
+    border-radius: 6px;
+    color: var(--accent-color);
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#contact button:hover {
+    background-color: var(--accent-color);
+    color: var(--bg-color);
+}
+

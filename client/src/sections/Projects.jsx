@@ -1,4 +1,4 @@
-// import './Project.css'
+import '../style/Project.css'
 import ProjectCard from './ProjectCard';
 import project1 from '../assets/logo.png'
 // import project2 from '../assets'
@@ -11,7 +11,7 @@ function Projects() {
             image: project1,
             title: "abc",
             description: " abd ",
-            technologies: [],
+            technologies: ["html", "css", "react", "wordpress"],
             github: "#",
             live: "#"
         },
@@ -20,7 +20,7 @@ function Projects() {
 
             title: "sfgh",
             description: "cfdg",
-            technologies: [],
+            technologies: ["html", "css", "react", "wordpress"],
             github: "#",
             live: "#"
         },
@@ -29,7 +29,7 @@ function Projects() {
 
             title: "sfsf",
             description: "dfas",
-            technologies: [],
+            technologies: ["html", "css", "react", "wordpress"],
             github: "#",
             live: "#"
         },
