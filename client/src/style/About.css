@@ -10,7 +10,8 @@
 
 #about p {
     color: var(--muted-text);
-    max-width: 750px;
+    /* max-width: 750px; */
+    max-width: 100%;
     margin-bottom: 1rem;
 
 }

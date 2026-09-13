@@ -1,37 +1,37 @@
 import '../style/Project.css'
 import ProjectCard from './ProjectCard';
-import project1 from '../assets/logo.png'
-// import project2 from '../assets'
-// import project3 from '../assets'
+import project1 from '../assets/ssportfolio2.png'
+import project2 from '../assets/ssportfolio1.png'
+import project3 from '../assets/ssproject3.png'
 
 
 function Projects() {
     const Projects = [
         {
             image: project1,
-            title: "abc",
-            description: " abd ",
-            technologies: ["html", "css", "react", "wordpress"],
-            github: "#",
-            live: "#"
+            title: "GFG Nation skillup program projects",
+            description: " This is my Learning Journey with full stack development course with GeeksforGeeks ",
+            technologies: ["html", "css", , "javascript", "react", "EJS"],
+            github: "https://github.com/jyotidercima/gfg-nationskillup-full-stack-development",
+            live: "https://jyotidercima.github.io/gfg-nationskillup-full-stack-development/"
         },
         {
-            image: project1,
+            image: project2,
 
-            title: "sfgh",
-            description: "cfdg",
-            technologies: ["html", "css", "react", "wordpress"],
-            github: "#",
-            live: "#"
+            title: "freecodecamp portfolio website",
+            description: "I have created a portfolio website using grids showing projects for now its simple webpage where you can view my projects",
+            technologies: ["html", "css"],
+            github: "https://github.com/jyotidercima/portfolio-webpage-freecodecamp",
+            live: "https://portfolio-webpage-freecodecamp.vercel.app/"
         },
         {
-            image: project1,
+            image: project3,
 
-            title: "sfsf",
-            description: "dfas",
-            technologies: ["html", "css", "react", "wordpress"],
-            github: "#",
-            live: "#"
+            title: "Product landing page",
+            description: "Product landing page for a key chain camera",
+            technologies: ["html", "css"],
+            github: "https://github.com/jyotidercima/product-landing-page-freecodecamp",
+            live: "https://product-landing-page-freecodecamp-phi.vercel.app/"
         },
 
     ];
