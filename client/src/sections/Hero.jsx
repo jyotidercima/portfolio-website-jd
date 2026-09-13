@@ -1,11 +1,26 @@
-import profileImage from "../assets/bg-jyoti1.png"
-import '../style/Hero.css'
+// import { useState } from "react";
+// import React from "react";
+import profileImage from "../assets/bg-jyoti1.png";
+// import logo from "../assets/logo.png";
+import '../style/Hero.css';
+
 
 function Hero() {
+
+    // const [menuOpen, setMenuOpen] = useState(false);
+
+
     return (
         <>
             <section id="hero" className="hero-section sections" >
                 <section className="content-hero">
+                    {/* <div className="logoimg">
+                        <img className='logo' src={logo} alt="logo" onClick={() => setMenuOpen(!menuOpen)}></img>
+                        
+
+                    </div> */}
+
+
                     <h1>Hi, I'am Jyoti Dercima</h1>
                     <h2>Full Stack Web Developer</h2>
 

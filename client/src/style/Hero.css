@@ -112,3 +112,51 @@
     border-radius: 12px;
     flex-shrink: 0;
 }
+
+
+/* .logoimg {
+    height: 140px;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    height: auto;
+    z-index: 1000;
+    background-color: var(--card-color);
+
+}
+
+.logoimg img {
+    height: 100px;
+    position: fixed;
+    display: none;
+    background-color: var(--card-color);
+} */
+
+
+@media (max-width: 780px) {
+
+    #hero {
+        margin: 100px auto;
+
+        width: 100vw;
+        padding: 15%;
+
+    }
+
+    .hero-image {
+        display: none;
+    }
+
+    /* 
+    #hero .logoimg {
+        display: block;
+        background-color: var(--card-color);
+        height: 100px;
+    }
+
+    .logoimg img {
+        display: inline;
+    } */
+
+}

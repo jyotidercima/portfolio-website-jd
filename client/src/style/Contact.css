@@ -75,3 +75,12 @@
     background-color: var(--accent-color);
     color: var(--bg-color);
 }
+
+@media (max-width: 780px) {
+
+    #contact {
+        width: 100vw;
+        padding: 10%;
+
+    }
+}

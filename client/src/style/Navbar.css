@@ -27,7 +27,7 @@
 
 }
 
-.nav-lists {
+ul {
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -36,7 +36,7 @@
 
 }
 
-.nav-lists a {
+ul a {
     text-decoration: none;
     color: var(--muted-text);
     font-size: 1rem;
@@ -102,4 +102,112 @@
     /* margin-top: auto; */
     padding-top: 1.5rem;
     border-top: 1px solid #334155;
+}
+
+.menu-toggle {
+    display: none;
+    position: relative;
+    z-index: 1000;
+}
+
+
+/* mobile layout */
+
+@media (max-width: 780px) {
+    .sidebar {
+        width: 100vw;
+        height: 100px;
+        min-height: auto;
+        position: sticky;
+        top: 0;
+        left: 0;
+        padding: 1rem 1.5rem;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .sidebar {
+        /* display: none; */
+    }
+
+    .sidebar img {
+        max-height: 100px;
+        align-items: center;
+        margin-bottom: auto;
+        position: absolute;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    /* .menu-toggle {
+        display: block;
+        margin-left: auto;
+        right: 20%;
+        position: fixed;
+
+    } */
+
+    .nav-links.open {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        width: 100%;
+
+    }
+
+
+
+    .social-links {
+        display: none;
+        flex-direction: row;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        right: 10px;
+    }
+
+    .sidebar footer {
+        display: none;
+    }
+
+
+}
+
+
+@media (max-width: 360px) {
+    .sidebar {
+        width: 240px;
+        min-height: 100vh;
+        position: absolute;
+        left: 0;
+        top: 0;
+
+        display: flex;
+        flex-direction: column;
+
+        padding: 2rem 1.5rem;
+        border-right: 1px solid #334155;
+        background-color: var(--card-color);
+
+    }
+
+    .sidebar ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .social-links {
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        display: none;
+    }
 }

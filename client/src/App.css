@@ -1,43 +1,43 @@
- /* #root {
-  max-width: 1280px;
-  min-width: none;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-} */
-/*
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.footer1 {
+  display: none;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 780px) {
+  .footer1 {
+    display: block;
   }
-  to {
-    transform: rotate(360deg);
+
+  .footer1 {
+    padding: 1rem 1rem;
+    border-top: 1px solid #334155;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+  .footer1 p {
+    color: var(--muted-text);
+    font-size: 0.9rem;
+
   }
-}
 
-.card {
-  padding: 2em;
-}
+  .footer1 div {
+    display: flex;
+    gap: 1.5rem;
+  }
 
-.read-the-docs {
-  color: #888;
-} */
+  .footer1 a {
+    text-decoration: none;
+    color: var(--muted-text);
+    transition: color 0.3s ease;
+  }
+
+  .footer1 a:hover {
+    color: var(--accent-color);
+  }
+
+  /* .app {
+    align-items: center;
+    justify-content: center;
+  } */
+}

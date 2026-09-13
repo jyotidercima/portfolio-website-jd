@@ -1,13 +1,31 @@
+import React, { useState } from "react";
 import '../style/Navbar.css'
 import Footer from './Footer'
 
 import logo from "../assets/logo.png"
 function Navbar() {
+
+    const [menuOpen, setMenuOpen] = useState(false);
+
+
+
+
     return (
         <>
             <div className="sidebar">
-                <img className='logo' src={logo} alt="logo" />
-                <ul className='nav-lists'>
+                <img className='logo' src={logo} alt="logo" onClick={() => setMenuOpen(!menuOpen)}
+                ></img>
+                <button
+                    className="menu-toggle"
+                    onClick={() => setMenuOpen(!menuOpen)}
+                >
+                    {menuOpen ? " X " : "O"}
+                </button>
+
+                <ul
+                    className={menuOpen ? "nav-links open" : "nav-links"}
+
+                >
                     <li><a href="#hero">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#skills">Skills</a></li>
@@ -20,7 +38,7 @@ function Navbar() {
                     <a href="https://www.linkedin.com/in/jyotidercima/" target='_blank' rel='noopener noreferre'>LinkedIn</a>
                 </div>
                 <Footer />
-            </div>
+            </div >
 
 
         </>

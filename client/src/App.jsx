@@ -29,7 +29,10 @@ function App() {
             <Contact />
 
           </main>
-          {/* <Footer /> */}
+          <div className="footer1">
+            <Footer />
+          </div>
+
 
         </div>
       </div>

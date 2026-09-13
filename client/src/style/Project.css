@@ -83,3 +83,18 @@
     margin-bottom: 1rem;
     /* border: 1px solid red; */
 }
+
+@media (max-width: 780px) {
+
+    #projects {
+        width: 100vw;
+        padding: 10%;
+
+    }
+
+    .projects-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
