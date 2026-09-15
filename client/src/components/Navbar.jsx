@@ -5,7 +5,7 @@ import Footer from './Footer'
 import logo from "../assets/logo.png"
 function Navbar() {
 
-    const [menuOpen, setMenuOpen] = useState(false);
+    const [menuOpen, setMenuOpen] = useState(true);
 
 
 
@@ -33,10 +33,10 @@ function Navbar() {
                     {/* <li><a href="#experience">Experience</a></li> */}
                     <li><a href="#contact">Contact</a></li>
                 </ul>
-                <div className="social-links">
+                {/* <div className="social-links">
                     <a href="https://github.com/jyotidercima" target='_blank' rel='noopener noreferre'>GitHub</a>
                     <a href="https://www.linkedin.com/in/jyotidercima/" target='_blank' rel='noopener noreferre'>LinkedIn</a>
-                </div>
+                </div> */}
                 <Footer />
             </div >
 

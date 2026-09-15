@@ -3,7 +3,7 @@
 
 }
 
-#contact>p:first-child {
+.form-container>p:first-child {
     color: var(--accent-color);
     font-family: monospace;
     font-size: 0.9rem;
@@ -16,7 +16,7 @@
 
 }
 
-#contact>p:nth-child(3) {
+.form-container>p:nth-child(3) {
     color: var(--muted-text);
     max-width: 650px;
     margin-bottom: 2rem;
@@ -74,6 +74,13 @@
 #contact button:hover {
     background-color: var(--accent-color);
     color: var(--bg-color);
+}
+
+.contact-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: start;
 }
 
 @media (max-width: 780px) {

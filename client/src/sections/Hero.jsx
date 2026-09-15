@@ -3,6 +3,7 @@
 import profileImage from "../assets/bg-jyoti1.png";
 // import logo from "../assets/logo.png";
 import '../style/Hero.css';
+import resume from "../assets/resumwdraft1.pdf";
 
 
 function Hero() {
@@ -31,7 +32,8 @@ function Hero() {
                     </p>
 
                     <div className="hero-buttons">
-                        <a href="#resume">Resume</a>
+                        {/* <a href={resume} download="JyotiDercima-resume.pdf" className="resume-button">Resume</a> */}
+                        <a href={resume} target="_blank" rel="noopener noreferrer" className="resume-button">Resume</a>
                         <a href="#contact">Connect with me</a>
 
                     </div>

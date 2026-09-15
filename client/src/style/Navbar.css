@@ -127,9 +127,6 @@ ul a {
         justify-content: space-between;
     }
 
-    .sidebar {
-        /* display: none; */
-    }
 
     .sidebar img {
         max-height: 100px;
