@@ -23,9 +23,9 @@ function Hero() {
 
 
                     <h1>Hi, I'am Jyoti Dercima</h1>
-                    <h2>Full Stack Web Developer</h2>
+                    <h2>Web Developer</h2>
 
-                    <p className="hero-description">I build responsive web applications while continuously learning and improving my skills.</p>
+                    <p className="hero-description">I build responsive web applications with modern web technologies, while continuously learning and improving my skills.</p>
 
                     <p className="hero-code">
                         &lt;code&gt; Building. Learning. Growing. &lt;/code&gt;

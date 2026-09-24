@@ -64,19 +64,21 @@
 
 .hero-buttons a {
     display: inline-block;
-    padding: 1.75rem, 2rem;
+    padding: 1.75rem 3rem;
     text-decoration: none;
-    border: 1px solid var(--accent-color);
-    color: var(--accent-color);
+    border: 1px solid var(--bg-color);
+    color: var(--bg-color);
+    background-color: var(--accent-color);
     border-radius: 6px;
     transition: all 0.3s ease;
     padding: 0 0.15rem;
-    /* width: 10em; */
+    width: 10rem;
+    text-align: center;
 }
 
 .hero-buttons a:hover {
-    background-color: var(--accent-color);
-    color: var(--bg-color);
+    background-color: rgb(18, 139, 30);
+    color: var(--mute-color);
 }
 
 

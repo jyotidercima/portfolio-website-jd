@@ -17,6 +17,11 @@ const socialLinks = [
         username: "growwithjd_iscreating",
         url: "https://www.instagram.com/growwithjd_iscreating/"
     },
+    {
+        name: "X",
+        username: "JDercima",
+        url: "https://x.com/JDercima"
+    },
 ]
 
 function SocialLinks() {

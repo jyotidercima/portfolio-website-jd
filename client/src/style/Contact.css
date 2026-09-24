@@ -24,6 +24,8 @@
 
 #contact form {
     max-width: 650px;
+    /* for form size to be fixed */
+    min-width: 250px;
     background-color: var(--card-color);
     border: 1px solid #334155;
     border-radius: 8px;
@@ -112,3 +114,18 @@
 
     }
 }
+
+@media (max-width: 470px) {
+
+    #contact {
+        width: 100vw;
+        padding: 10%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+    }
+
+
+}
+

@@ -11,14 +11,16 @@
     padding: 2rem 1.5rem;
     border-right: 1px solid #334155;
     background-color: var(--card-color);
+
+    z-index: 1;
 }
 
-.social-links {
+/* .social-links {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 
-}
+} */
 
 .logo {
     font-size: 1.8rem;
@@ -48,24 +50,7 @@ ul a {
     color: var(--accent-color);
 }
 
-.social-links {
-    margin-top: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.75rem;
-}
-
-.social-links a {
-    text-decoration: none;
-    color: var(--muted-text);
-    transition: color 0.3s ease;
-
-}
-
-.social-links a:hover {
-    color: var(--accent-color)
-}
+/* cut from here and pasted in sociallinks */
 
 /* footer */
 
@@ -139,13 +124,7 @@ ul a {
         display: none;
     }
 
-    /* .menu-toggle {
-        display: block;
-        margin-left: auto;
-        right: 20%;
-        position: fixed;
 
-    } */
 
     .nav-links.open {
         display: flex;
@@ -156,16 +135,16 @@ ul a {
     }
 
 
-
+    /* 
     .social-links {
-        display: none;
+        display: block;
         flex-direction: row;
         align-items: center;
         margin: 0;
         padding: 0;
         position: absolute;
         right: 10px;
-    }
+    } */
 
     .sidebar footer {
         display: none;
@@ -176,19 +155,41 @@ ul a {
 
 
 @media (max-width: 360px) {
+
     .sidebar {
-        width: 240px;
-        min-height: 100vh;
+
         position: absolute;
         left: 0;
         top: 0;
 
-        display: flex;
+        display: none;
         flex-direction: column;
 
         padding: 2rem 1.5rem;
         border-right: 1px solid #334155;
         background-color: var(--card-color);
+
+    }
+
+    /* .nav-links.open {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        width: 100%;
+
+    } */
+
+    .nav-links {
+        display: none;
+    }
+
+
+
+    .menu-toggle {
+        display: block;
+        margin-left: auto;
+        right: 20%;
+        position: fixed;
 
     }
 
