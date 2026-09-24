@@ -5,7 +5,7 @@ import Footer from './Footer'
 import logo from "../assets/logo.png"
 function Navbar() {
 
-    const [menuOpen, setMenuOpen] = useState(true);
+    const [menuOpen, setMenuOpen] = useState(false);
 
 
 

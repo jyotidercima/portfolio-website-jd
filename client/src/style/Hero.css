@@ -59,12 +59,14 @@
 
 .hero-buttons {
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 1rem;
 }
 
 .hero-buttons a {
     display: inline-block;
-    padding: 1.75rem 3rem;
+    padding: 1.75rem 2.5rem;
     text-decoration: none;
     border: 1px solid var(--bg-color);
     color: var(--bg-color);
@@ -139,8 +141,7 @@
 @media (max-width: 780px) {
 
     #hero {
-        margin: 100px auto;
-
+        margin: 0 auto;
         width: 100vw;
         padding: 15%;
 
