@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import viteLogo from '/favicon.png'
 import './App.css'
 
 import Navbar from './components/Navbar'
