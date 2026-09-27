@@ -59,14 +59,14 @@
 
 .hero-buttons {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     gap: 1rem;
 }
 
 .hero-buttons a {
     display: inline-block;
-    padding: 1.75rem 2.5rem;
+    padding: 1.75rem 2rem;
     text-decoration: none;
     border: 1px solid var(--bg-color);
     color: var(--bg-color);
@@ -141,7 +141,7 @@
 @media (max-width: 780px) {
 
     #hero {
-        margin: 0 auto;
+        margin: 10% auto;
         width: 100vw;
         padding: 15%;
 
@@ -161,5 +161,15 @@
     .logoimg img {
         display: inline;
     } */
+
+}
+
+@media (max-width: 512px) {
+    #hero {
+        margin-top: 100px;
+        display: block;
+    }
+
+
 
 }

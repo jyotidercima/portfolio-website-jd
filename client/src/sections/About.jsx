@@ -6,8 +6,8 @@ function AboutMe() {
         <>  <section id="about" className="about sections">
 
 
-            <h2 className="section-subtitle">Get To Know Me</h2>
             <p>About me</p>
+            <h2 className="section-subtitle">Get To Know Me</h2>
 
             <div className="about-content">
 

@@ -28,3 +28,24 @@ footer a {
 footer a:hover {
     color: var(--accent-color);
 }
+
+
+@media (max-width: 780px) {
+    footer {
+        position: relative;
+        bottom: 0;
+        width: 100vw;
+        margin-top: auto;
+        max-height: 100vh;
+        align-items: flex-end;
+        display: block;
+
+
+    }
+
+    footer p {
+        position: absolute;
+        bottom: 0;
+
+    }
+}
